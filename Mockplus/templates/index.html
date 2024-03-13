@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockplus</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'assets/styles.css' %}">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>   </head>
+</head>
+<body>
+    <header style="background-image: url(./assets/banner.jpg);
+    background-size: cover;
+    background-position: center center;"
+    class="banner">
+
+        <nav class="nav-bar">
+            <div class="nav-left">
+                <img src="{% static 'assets/images/logo.jpeg' %}" alt="logo">
+                <ul>
+                    <li class="logo"><a href="#home">Mockplus</a></li>
+                    <li class="menu"><a href="#product">
+                        <div class="dropdown">
+                            <button class="drop-btn">
+                                Products
+                            </button>
+                            <div class="drop-content">
+
+
+                                <a href="#">
+                                    <h3>Prototyping</h3>
+                                    <p>Free web & app protyping tool</p>
+                                </a>
+                                <a href="#">
+                                    <h3>Wireframing</h3>
+                                    <p>Free online wireframing tool</p>
+
+                                </a>
+                                <a href="#">
+                                    <h3>UX design</h3>
+                                    <p>Design tool for UX team</p>
+                                </a>
+                            </div>
+                        </div>
+    
+
+                    </a></li>
+                    <li class="menu"><a href="#enterprice">Enterprice</a></li>
+                    <li class="menu"><a href="#pricing">Templates</a></li>
+                    <li class="menu"><a href="#resourses">
+                        <div class="dropdown">
+                         
+                            <button class="drop-btn">Resource
+                                <!-- <i class="far fa-caret-down" aria-hidden="true" 
+                                style="color: brown;"
+                                ></i> -->
+                           
+                           </button>
+       
+                           <div class="drop-content" style=" align-items: flex-start;">
+                            <a href="#">
+                               <p>Help center</p>
+                            </a>
+                            <a href="#">
+                               <p>Learn design</p>
+                            </a>
+                            <a href="#">
+                               <p>Community</p>
+                            </a>
+                            <a href="#">
+                               <p>Blog</p>
+                            </a>
+
+                        </div>
+   
+                       </div>
+                        
+
+
+
+                    </a></li>
+                </ul>
+
+            </div>
+
+            <div class="nav-right">
+                <ul>
+                    <li class="login"><a href="{% url 'login_user' %}">log out</a></li>
+                    <li class="get-btn"><a href="#login">Get started for free</a></li>
+                </ul>
+
+            </div>
+
+
+        </nav>
+
+        <div class="banner_details">
+            <h4>Mockplus Blog</h4>
+            <p>Designing the best user experience. Mockplus does it all</p>
+            <button>Get started for Free</button>
+        </div>
+    </header>
+
+    <div class="main_container">
+        <main>
+    
+            <div class="container">
+                <div class="item1">
+                    <img src="{% static 'assets/images/first.jpg' %}" alt="image">
+                    <div class="content">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur
+                             adipisicing elit. Ipsam sint voluptatibus,
+                              a nobis, inventore veritatis sunt autem perferendis temporibus
+                               cumque doloribus consectetur incidunt quo aspernatur sapiente 
+                               voluptatem dolores praesentium expedita.</p>
+    
+                               <div class="icons">
+                                <i class="fa fa-user" aria-hidden="true">
+                                    <h5>Jesse</h5>
+                                </i>
+                                <i class="far fa-clock"> 
+                             <h5>Feb 14</h5>
+                          </i>
+    
+                                
+    
+                               </div>
+                        
+                    </div>
+                </div>
+                <div class="item0">
+                    <img src="{% static 'assets/images/first.jpg' %}" alt="image">
+                    <div class="content">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur
+                             adipisicing elit. Ipsam sint voluptatibus,
+                              a nobis, inventore veritatis sunt autem perferendis temporibus
+                               cumque doloribus consectetur incidunt quo aspernatur sapiente 
+                               voluptatem dolores praesentium expedita.</p>
+    
+                               <div class="icons">
+                                <i class="fa fa-user" aria-hidden="true">
+                                    <h5>Jesse</h5>
+                                </i>
+                                <i class="far fa-clock"> 
+                             <h5>Feb 14</h5>
+                          </i>
+    
+                                
+    
+                               </div>
+                        
+                    </div>
+                </div>
+                <div class="item0">
+                    <img src="{% static 'assets/images/first.jpg' %}" alt="image">
+                    <div class="content">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur
+                             adipisicing elit. Ipsam sint voluptatibus,
+                              a nobis, inventore veritatis sunt autem perferendis temporibus
+                               cumque doloribus consectetur incidunt quo aspernatur sapiente 
+                               voluptatem dolores praesentium expedita.</p>
+    
+                               <div class="icons">
+                                <i class="fa fa-user" aria-hidden="true">
+                                    <h5>Jesse</h5>
+                                </i>
+                                <i class="far fa-clock"> 
+                             <h5>Feb 14</h5>
+                          </i>
+    
+                                
+    
+                               </div>
+                        
+                    </div>
+                </div>
+                <div class="item0">
+                    <img src="{% static 'assets/images/first.jpg' %}" alt="image">
+                    <div class="content">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur
+                             adipisicing elit. Ipsam sint voluptatibus,
+                              a nobis, inventore veritatis sunt autem perferendis temporibus
+                               cumque doloribus consectetur incidunt quo aspernatur sapiente 
+                               voluptatem dolores praesentium expedita.</p>
+    
+                               <div class="icons">
+                                <i class="fa fa-user" aria-hidden="true">
+                                    <h5>Jesse</h5>
+                                </i>
+                                <i class="far fa-clock"> 
+                             <h5>Feb 14</h5>
+                          </i>
+    
+                                
+    
+                               </div>
+                        
+                    </div>
+                </div>
+                <div class="item0">
+                    <img src="{% static 'assets/images/first.jpg' %}" alt="image">
+                    <div class="content">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur
+                             adipisicing elit. Ipsam sint voluptatibus,
+                              a nobis, inventore veritatis sunt autem perferendis temporibus
+                               cumque doloribus consectetur incidunt quo aspernatur sapiente 
+                               voluptatem dolores praesentium expedita.</p>
+    
+                               <div class="icons">
+                                <i class="fa fa-user" aria-hidden="true">
+                                    <h5>Jesse</h5>
+                                </i>
+                                <i class="far fa-clock"> 
+                             <h5>Feb 14</h5>
+                          </i>
+    
+                                
+    
+                               </div>
+                        
+                    </div>
+                </div>
+                <div class="item0">
+                    <img src="{% static 'assets/images/first.jpg' %}" alt="image">
+                    <div class="content">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur
+                             adipisicing elit. Ipsam sint voluptatibus,
+                              a nobis, inventore veritatis sunt autem perferendis temporibus
+                               cumque doloribus consectetur incidunt quo aspernatur sapiente 
+                               voluptatem dolores praesentium expedita.</p>
+    
+                               <div class="icons">
+                                <i class="fa fa-user" aria-hidden="true">
+                                    <h5>Jesse</h5>
+                                </i>
+                                <i class="far fa-clock"> 
+                             <h5>Feb 14</h5>
+                          </i>
+    
+                                
+    
+                               </div>
+                        
+                    </div>
+                </div>
+                <div class="item0">
+                    <img src="{% static 'assets/images/first.jpg' %}" alt="image">
+                    <div class="content">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur
+                             adipisicing elit. Ipsam sint voluptatibus,
+                              a nobis, inventore veritatis sunt autem perferendis temporibus
+                               cumque doloribus consectetur incidunt quo aspernatur sapiente 
+                               voluptatem dolores praesentium expedita.</p>
+    
+                               <div class="icons">
+                                <i class="fa fa-user" aria-hidden="true">
+                                    <h5>Jesse</h5>
+                                </i>
+                                <i class="far fa-clock"> 
+                             <h5>Feb 14</h5>
+                          </i>
+    
+                                
+    
+                               </div>
+                        
+                    </div>
+                </div>
+    
+            </div>
+    
+        </main>
+
+        <aside>
+
+            <div class="search_field">
+
+                <input type="text" placeholder="Search">
+                <a href="#">
+                    <i class="fa fa-search"></i>
+                </a>
+
+
+
+
+
+            </div>
+            <div class="email_field">
+                <h2>Subscribe to our blog</h2>
+                <p>To get the latest and most quality design resources!</p>
+
+
+                <div class="email_details">
+                    <input type="text" placeholder="Email address">
+                    <a href="#">
+                      Sign me up
+                    </a>
+                </div>
+
+
+
+
+            </div>
+
+            <!-- categories_container -->
+
+            <div class="categories_container">
+                <button id="categories_drop">
+                    Categories
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                </button>
+
+                <div id="categories_content">
+                    <h5>Inside Mockplus</h5>
+                    <h5>UI Design</h5>
+                    <h5>UX Design</h5>
+                    <h5>Design and prototyping tools</h5>
+                    <h5>Web design</h5>
+                    <h5>Mobile design</h5>
+                    <h5>Iteration Design</h5>
+                    <h5>Product Design</h5>
+                    <h5>News and events of UX Design</h5>
+                    <h5>UX design guest posts</h5>
+
+                </div>
+            </div>
+
+
+            <div class="posts_container">
+                <h2>POPULAR POST</h2>
+
+                <div class="posts">
+                    <img src="{% static 'assets/images/post.jpg' %}" alt="posts">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="posts">
+                    <img src="{% static 'assets/images/post.jpg' %}" alt="posts">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="posts">
+                    <img src="{% static 'assets/images/post.jpg' %}" alt="posts">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="posts">
+                    <img src="{% static 'assets/images/post.jpg' %}" alt="posts">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+
+            <div class="proms">
+                <h3>mockplus rp</h3>
+                <p>Best wireframing and prototyping tool for APP and Web design.</p>
+                <button>Get Started for Free</button>
+            </div>
+            <div class="proms">
+                <h3>mockplus cloud</h3>
+                <p>One platform for design, prototype, hand-off and design systems.</p>
+                <button>Get Started for Free</button>
+            </div>
+
+
+        </aside>
+        
+    </div>
+
+
+
+    <footer>
+        <!-- footer -->
+    </footer>
+
+
+
+    <script src="{% static 'script.js' %}"></script>
+    
+</body>
+</html>
